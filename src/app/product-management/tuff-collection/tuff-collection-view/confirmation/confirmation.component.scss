@@ -1,0 +1,31 @@
+#invoice{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -100px;
+}
+.p-datatable-table {
+    border-spacing: 0px;
+    width: 100%;
+    transform: rotate(270deg);
+}
+.undeline{
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    float: right;
+}
+.details{
+    width: 500px;
+    div{
+        margin-top: 20px;
+    }
+}
+.size{
+    margin-left: 70px;
+}
+
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}

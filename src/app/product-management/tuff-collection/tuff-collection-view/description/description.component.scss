@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+img{
+    margin-top: -60px;
+}
+.description{
+    width: 500px;
+    margin-top: 0px;
+    div{
+        margin-top: 10px;
+   
+    }
+    input,p-calendar{
+         margin-right: 50px;
+        float: right;
+        margin-bottom: 10px;
+    }
+}
+
+p-divider{
+    margin-bottom: 20px;
+}
+p-table{
+    input{
+        width: 70px;
+        margin-right: 0px;
+    }
+    float: right;
+}
+.size{
+    margin-left: 20px;
+    margin-right: 0px;
+}

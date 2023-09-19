@@ -1,0 +1,9 @@
+<div class="tuff-collection-view">
+    <p-steps [model]="items" [readonly]="false" [activeIndex]="activeIndex" (activeIndexChange)="onActiveIndexChange($event)"></p-steps>
+</div>
+<router-outlet></router-outlet>
+
+<app-description *ngIf="isEnableDescription"></app-description>
+<app-size *ngIf="isEnableSize"></app-size>
+<app-material *ngIf="isEnableMaterial"></app-material>
+<app-confirmation *ngIf="isEnableConfirmation"></app-confirmation>

@@ -1,0 +1,48 @@
+<div  id="invoice" #invoice>
+    <div class="product-image">
+        <img src="../../../../../assets/images/tuffCollection02.jpg" alt="" width="400" height="600">
+    </div>
+    <div class="details">
+        <div class="header">
+            <h4>
+                PRODUCTION DETAILS
+            </h4>
+            <div>
+                <span class="lable">DATE:</span> <span class="undeline">2023/09/35</span>
+            </div>
+            <div>
+                <span class="lable">BRAND:</span> <span class="undeline">Test</span>
+            </div>
+            <div>
+                <span class="lable">COLLECTION:</span> <span class="undeline">Test</span>
+            </div>
+            <div>
+                <span class="lable">SEASON:</span> <span class="undeline">Test</span>
+            </div>
+            <div>
+                <span class="lable">MODEL SIZE:</span> <span class="undeline">Test</span>
+            </div>
+        </div>
+    </div>
+    <div class="size">
+        <p-table [value]="productSize"  >
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>SIZE</th>
+                    <th>1/2</th>
+                    <th>QTY</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-product>
+                <tr>
+                    <td>{{ product.size }}</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </div>
+</div>
+<div class="card flex justify-content-center">
+    <p-button label="Generate PDF" (click)="generatePDF()"></p-button>
+</div>

@@ -1,0 +1,12 @@
+/* Add this style to your component's CSS file */
+.column-oriented-p-table {
+    display: flex;
+    flex-direction: column;
+  }
+  .size{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
